@@ -39,7 +39,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="@drawable/green_g_plus_button"
-        android:text="Ok Got it"
+        android:text="@string/lotengo"
         android:textColor="#FFF"
         android:textSize="20sp" />
 
