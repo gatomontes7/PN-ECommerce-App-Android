@@ -28,4 +28,5 @@
     <string name="lab_locations">Ubicaciones</string>
     <string name="pune">Pune</string>
     <string name="address_value">C 1002, Lorelle Socity Wakad Pune</string>
+    <string name="apriori">Resultado de Apriori Algo</string>
 </resources>

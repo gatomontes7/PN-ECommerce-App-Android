@@ -32,5 +32,6 @@
     <string name="lab_locations">Locations</string>
     <string name="pune">Pune</string>
     <string name="address_value">C 1002, Lorelle Socity Wakad Pune</string>
+    <string name="apriori">Apriori Algo Result</string>
 
 </resources>
