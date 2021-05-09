@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Developer Name :"
+                android:text="@string/nombredesarrollador"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:text="Hitesh Sahu"
+                android:text="Gabriel, Farith, Samanda, Julia, David, Diego"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:text="hiteshkumarsahu1990@gmail.com"
+                android:text="gabrielbuergo@gmail.com"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -215,7 +215,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="Address"
+                android:text="@string/direcciontion"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />

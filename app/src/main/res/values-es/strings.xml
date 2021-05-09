@@ -22,12 +22,15 @@
     <string name="personal_website_">Sitio web personal :</string>
     <string name="similar_product">También te puede interesar</string>
     <string name="email_developer_">Desarrollador de correo electrónico:</string>
-    <string name="site_hitesh">www.hiteshsahu.com</string>
+    <string name="site_hitesh">www.aplicacionesmovil.com</string>
     <string name="contact_number">Número de contacto</string>
     <string name="mob_num">8888813275</string>
     <string name="lab_locations">Ubicaciones</string>
-    <string name="pune">Pune</string>
-    <string name="address_value">C 1002, Lorelle Socity Wakad Pune</string>
+    <string name="pune">Vallegrande</string>
+    <string name="address_value">Bolivia/Santa Cruz/Florida/Vallegrande</string>
     <string name="apriori">Resultado de Apriori Algo</string>
     <string name="lotengo">Ok lo tengo</string>
+    <string name="sinconeccion">Parece que estás sin conexión. \\ n Para una mejor experiencia, utilice la aplicación en línea</string>
+    <string name="nombredesarrollador">Nombre del desarrollador:</string>
+    <string name="direcciontion">Direccion</string>
 </resources>

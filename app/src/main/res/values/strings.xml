@@ -26,13 +26,16 @@
     <string name="slogan">Assignment</string>
     <string name="email_developer_">Email Developer:</string>
     <string name="personal_website_">Personal Website :</string>
-    <string name="site_hitesh">www.hiteshsahu.com</string>
+    <string name="site_hitesh">www.aplicacionesmovil.com</string>
     <string name="contact_number">Contact Number</string>
     <string name="mob_num">8888813275</string>
     <string name="lab_locations">Locations</string>
-    <string name="pune">Pune</string>
-    <string name="address_value">C 1002, Lorelle Socity Wakad Pune</string>
+    <string name="pune">Vallegrande</string>
+    <string name="address_value">Bolivia/Santa Cruz/Florida/Vallegrande</string>
     <string name="apriori">Apriori Algo Result</string>
     <string name="lotengo">Ok Got it</string>
+    <string name="sinconeccion">Look like you are Offline. \\n For better experience use Application online</string>
+    <string name="nombredesarrollador">Developer Name :</string>
+    <string name="direcciontion">Address</string>
 
 </resources>
