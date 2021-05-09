@@ -46,4 +46,24 @@
     <string name="aprioriminingresult">Apriori Mining Result</string>
     <string name="contactus">Contact US</string>
     <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="login">Login</string>
+    <string name="maps">Maps</string>
+    <string name="appversion">App Version</string>
+    <string name="logreporting">Log reporting</string>
+    <string name="sendnotification">Send Notification</string>
+    <string name="updateapp">Update App</string>
+    <string name="enable">Enable</string>
+    <string name="checkforupdate">Check for Update</string>
+    <string name="opensourcelicence">Open Source Licence</string>
+    <string name="uses">Uses</string>
+    <string name="usesacra">Uses ACRA</string>
+    <string name="avloadingindicator">Av Loading indicator</string>
+    <string name="usesjazzylistview">Uses Jazzy List View</string>
+    <string name="usessquarepicassoandglide">Uses Square Picasso and Glide</string>
+    <string name="useslabelview">Uses Label View</string>
+    <string name="usesguava">Uses Guava</string>
+    <string name="usesgson">Uses Gson</string>
+    <string name="usesvolley">Uses Volley</string>
+    <string name="usesnineoldandroid">Uses Nine Old Android</string>
 </resources>

@@ -42,4 +42,24 @@
     <string name="aprioriminingresult">Resultado de minería a priori</string>
     <string name="contactus">Contáctenos</string>
     <string name="settings">Ajustes</string>
+    <string name="about">Acerca de</string>
+    <string name="login">acceso</string>
+    <string name="maps">Maps</string>
+    <string name="appversion">" Version de aplicacion"</string>
+    <string name="logreporting">Informes de registros</string>
+    <string name="sendnotification">Enviar notificación</string>
+    <string name="updateapp">Actualización de la aplicación</string>
+    <string name="enable">" Permitir"</string>
+    <string name="checkforupdate">" Buscar actualizaciones"</string>
+    <string name="opensourcelicence">Licencia de código abierto</string>
+    <string name="uses">Usos</string>
+    <string name="usesacra">Utiliza ACRA</string>
+    <string name="avloadingindicator">Indicador de carga av</string>
+    <string name="usesjazzylistview">Utiliza la vista de lista Jazzy</string>
+    <string name="usessquarepicassoandglide">Utiliza Square Picasso y Glide</string>
+    <string name="useslabelview">" Utiliza la vista de etiqueta"</string>
+    <string name="usesguava">Usa guayaba</string>
+    <string name="usesgson">" Utiliza Gson"</string>
+    <string name="usesvolley">Utiliza volea</string>
+    <string name="usesnineoldandroid">Utiliza nueve Android antiguo</string>
 </resources>
