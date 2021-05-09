@@ -236,7 +236,7 @@ public class ECartHomeActivity extends AppCompatActivity {
                 return true;
             case R.id.action_login:
 
-                Intent i = new Intent(ECartHomeActivity.this,APrioriResultActivity.class);
+                Intent i = new Intent(ECartHomeActivity.this,login_pri.class);
                 startActivity(i);
                 break;
         }
