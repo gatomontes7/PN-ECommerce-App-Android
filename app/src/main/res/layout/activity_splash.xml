@@ -15,6 +15,7 @@
     android:background="@color/material_blue_500"
     android:gravity="center">
 
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

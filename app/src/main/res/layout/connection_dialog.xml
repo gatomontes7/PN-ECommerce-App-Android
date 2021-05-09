@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_toRightOf="@+id/image"
-        android:text="Look like you are Offline. \n For better experience use Application online"
+        android:text="@string/sinconeccion"
         android:textColor="@color/white"
         android:textSize="20sp" />
 
