@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
-                android:text="App Version"
+                android:text="@string/appversion"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Log reporting"
+                android:text="@string/logreporting"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:text="Enable"
+                android:text="@string/enable"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Send Notification"
+                android:text="@string/sendnotification"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -111,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:text="Enable"
+                android:text="@string/enable"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -129,7 +129,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Update App"
+                android:text="@string/updateapp"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -139,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="3dp"
-                android:text="check for update"
+                android:text="@string/checkforupdate"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -162,7 +162,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Open Source Licence"
+                android:text="@string/opensourcelicence"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -173,7 +173,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="uses"
+                android:text="@string/uses"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
 
@@ -184,7 +184,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses ACRA"
+                android:text="@string/usesacra"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -196,7 +196,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Av Loading indicator"
+                android:text="@string/avloadingindicator"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -208,7 +208,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Jazzy List View"
+                android:text="@string/usesjazzylistview"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -220,7 +220,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Square Picasso and Glide "
+                android:text="@string/usessquarepicassoandglide"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -232,7 +232,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Label View"
+                android:text="@string/useslabelview"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -244,7 +244,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Guava"
+                android:text="@string/usesguava"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -256,7 +256,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Gson"
+                android:text="@string/usesgson"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -268,7 +268,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Volley"
+                android:text="@string/usesvolley"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />
@@ -280,7 +280,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_toLeftOf="@+id/checkbox_earphone_plug"
-                android:text="Uses Nine Old Android"
+                android:text="@string/usesnineoldandroid"
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="italic" />

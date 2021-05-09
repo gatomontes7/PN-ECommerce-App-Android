@@ -1,4 +1,4 @@
-<!--
+-<!--
   ~ Copyright (c) 2017. http://hiteshsahu.com- All Rights Reserved
   ~ Unauthorized copying of this file, via any medium is strictly prohibited
   ~ If you use or distribute this project then you MUST ADD A COPY OF LICENCE
@@ -19,16 +19,16 @@
     <item
         android:id="@+id/action_about"
         android:orderInCategory="100"
-        android:title="About"
+        android:title="@string/about"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_login"
         android:orderInCategory="100"
-        android:title="login "
+        android:title="@string/login"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_maps"
         android:orderInCategory="100"
-        android:title="Maps"
+        android:title="@string/maps"
         app:showAsAction="never" />
 </menu>
