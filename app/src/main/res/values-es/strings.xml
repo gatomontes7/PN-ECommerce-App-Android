@@ -37,4 +37,9 @@
     <string name="recienllegados">LOS RECIÉN LLEGADOS</string>
     <string name="nombredelarticulo">Nombre del árticulo</string>
     <string name="Bs20">Bs 20</string>
+    <string name="home">Inicio</string>
+    <string name="mycart">Mi Carrito</string>
+    <string name="aprioriminingresult">Resultado de minería a priori</string>
+    <string name="contactus">Contáctenos</string>
+    <string name="settings">Ajustes</string>
 </resources>

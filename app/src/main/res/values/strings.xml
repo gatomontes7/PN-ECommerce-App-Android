@@ -41,4 +41,9 @@
     <string name="recienllegados">NEW ARRIVALS</string>
     <string name="nombredelarticulo">Item Name</string>
     <string name="Bs20">Bs 20</string>
+    <string name="home">Home</string>
+    <string name="mycart">My Cart</string>
+    <string name="aprioriminingresult">Apriori Mining Result</string>
+    <string name="contactus">Contact US</string>
+    <string name="settings">Settings</string>
 </resources>
