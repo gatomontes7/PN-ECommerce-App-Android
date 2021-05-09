@@ -44,13 +44,10 @@ public class ProductLoaderTask extends AsyncTask<String, Void, Void> {
 
     @Override
     protected void onPreExecute() {
-
         super.onPreExecute();
-
         if (null != ((ECartHomeActivity) context).getProgressBar())
             ((ECartHomeActivity) context).getProgressBar().setVisibility(
                     View.VISIBLE);
-
     }
 
     @Override

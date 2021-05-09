@@ -25,6 +25,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.hitesh_sahu.retailapp.R;
 import com.hitesh_sahu.retailapp.domain.helper.Connectivity;
@@ -37,6 +38,7 @@ import com.hitesh_sahu.retailapp.util.PreferenceHelper;
 import com.hitesh_sahu.retailapp.util.TinyDB;
 import com.hitesh_sahu.retailapp.util.Utils;
 import com.hitesh_sahu.retailapp.util.Utils.AnimationType;
+import com.hitesh_sahu.retailapp.view.adapter.ProductListAdapter;
 import com.hitesh_sahu.retailapp.view.fragment.HomeFragment;
 import com.hitesh_sahu.retailapp.view.fragment.WhatsNewDialog;
 import com.wang.avi.AVLoadingIndicatorView;
@@ -62,6 +64,7 @@ public class ECartHomeActivity extends AppCompatActivity {
     private AVLoadingIndicatorView progressBar;
 
     private NavigationView mNavigationView;
+    private Object Intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -231,9 +234,17 @@ public class ECartHomeActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.action_settings:
                 return true;
+            case R.id.action_login:
+
+                Intent i = new Intent(ECartHomeActivity.this,APrioriResultActivity.class);
+                startActivity(i);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+
 
     public void updateItemCount(boolean ifIncrement) {
         if (ifIncrement) {
