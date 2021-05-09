@@ -37,5 +37,8 @@
     <string name="sinconeccion">Look like you are Offline. \\n For better experience use Application online</string>
     <string name="nombredesarrollador">Developer Name :</string>
     <string name="direcciontion">Address</string>
+    <string name="recienllegados">NEW ARRIVALS</string>
+    <string name="nombredelarticulo">Item Name</string>
+    <string name="Bs20">Bs 20</string>
 
 </resources>
