@@ -35,6 +35,7 @@
         android:inputType="textEmailAddress" />
 
     <Button
+        android:id="@+id/btnEntrar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -46,6 +47,7 @@
         android:textSize="30dp"/>
 
     <Button
+        android:id="@+id/btnRegistrar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"

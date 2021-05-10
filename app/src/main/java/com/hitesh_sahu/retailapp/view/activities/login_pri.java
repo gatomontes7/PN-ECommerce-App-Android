@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -45,13 +46,35 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-public class login_pri extends AppCompatActivity {
+public class login_pri extends AppCompatActivity implements View.OnClickListener{
+
+    EditText user, pass;
+    Button btnEntrar, btnRegistrar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+        user=(EditText)findViewById(R.id.User);
+        pass=(EditText)findViewById(R.id.Pass);
+        btnEntrar=(Button)findViewById(R.id.btnEntrar);
+        btnRegistrar=(Button)findViewById(R.id.btnRegistrar);
+
+        btnEntrar.setOnClickListener(this);
+        btnRegistrar.setOnClickListener(this);
 
     }
 
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.btnEntrar:
+                break;
+            case R.id.btnRegistrar:
+                Intent i= new Intent(login_pri.this, registrar.class);
+                startActivity(i);
+                break;
+        }
+    }
 }
