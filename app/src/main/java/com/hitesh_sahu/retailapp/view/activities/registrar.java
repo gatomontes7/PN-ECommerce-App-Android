@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.hitesh_sahu.retailapp.model.entities.Usuario;
 import com.hitesh_sahu.retailapp.model.entities.daoUsuario;
@@ -49,9 +50,21 @@ public class registrar extends AppCompatActivity implements View.OnClickListener
                     u.setPassword(pass.getText().toString());
                     u.setNombre(nom.getText().toString());
                     u.setApellidos(ap.getText().toString());
+                    if (!u.isNull()){
+                        Toast.makeText(this, "ERROR: campos vacios", Toast.LENGTH_LONG).show();
+                    }else if(dao.insertUsuario(u)){
+                        Toast.makeText(this, "Registro Exitoso!", Toast.LENGTH_LONG).show();
+                        Intent i2 = new Intent(registrar.this, login_pri.class);
+                        startActivity(i2);
+                        finish();
+                    }else{
+                        Toast.makeText(this, "Usuario ya registrado", Toast.LENGTH_LONG).show();
+                    }
                     break;
                 case R.id.btnRegCancelar:
-
+                        Intent i = new Intent(registrar.this, login_pri.class);
+                        startActivity(i);
+                        finish();
                     break;
             }
         }
