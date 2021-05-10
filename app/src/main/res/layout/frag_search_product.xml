@@ -51,7 +51,7 @@
             android:layout_toLeftOf="@+id/btnSpeak"
             android:background="@drawable/rounder_rectangle_visa_card"
             android:hapticFeedbackEnabled="true"
-            android:hint="What do you wish for ?"
+            android:hint="@string/consult"
             android:marqueeRepeatLimit="marquee_forever"
             android:padding="5dp"
             android:singleLine="true"

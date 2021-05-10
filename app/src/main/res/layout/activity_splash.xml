@@ -21,7 +21,6 @@
         android:layout_height="match_parent"
         android:gravity="center">
 
-
         <com.hitesh_sahu.retailapp.util.FontText
             android:id="@+id/pro_txt"
             style="@style/TextAppearance.AppCompat.Display1"

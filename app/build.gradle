@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.hitesh_sahu.retailshop"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 23
     }
 
@@ -40,5 +40,8 @@ dependencies {
     //Loading animations
     implementation 'com.wang.avi:library:1.0.5'
     implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
 }

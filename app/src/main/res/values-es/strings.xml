@@ -62,4 +62,5 @@
     <string name="usesgson">" Utiliza Gson"</string>
     <string name="usesvolley">Utiliza volea</string>
     <string name="usesnineoldandroid">Utiliza nueve Android antiguo</string>
+    <string name="consult">Qué deseas ?</string>
 </resources>

@@ -66,4 +66,6 @@
     <string name="usesgson">Uses Gson</string>
     <string name="usesvolley">Uses Volley</string>
     <string name="usesnineoldandroid">Uses Nine Old Android</string>
+    <string name="consult">What do you wish for ?</string>
+    <string name="title_activity_maps_r">Map</string>
 </resources>
