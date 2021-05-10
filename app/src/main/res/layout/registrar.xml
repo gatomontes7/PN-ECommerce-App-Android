@@ -18,7 +18,7 @@
         android:text="CREAR NUEVA CUENTA" />
 
     <EditText
-        android:id="@+id/Nombre"
+        android:id="@+id/RegNombre"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
@@ -27,7 +27,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/Apellidos"
+        android:id="@+id/RegApellidos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
@@ -36,7 +36,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/User"
+        android:id="@+id/RegUser"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
@@ -45,7 +45,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/Pass"
+        android:id="@+id/RegPass"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
@@ -66,7 +66,7 @@
         android:textSize="30dp"/>
 
     <Button
-        android:id="@+id/BtnRegCancelar"
+        android:id="@+id/btnRegCancelar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
